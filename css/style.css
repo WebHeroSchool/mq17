@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  transition: all .2s;
+}
+
+body {
+  background-color: #1233;
+}
+
+.first {
+  padding: 100px 80px;
+}
+
+.first-title {
+  font-size: 4em;
+  border-radius: 5px;
+  text-align: center;
+  color: darkgray;
+  margin-top: 0;
+  background-color: darkred;
+  text-shadow: hoff voff blur #000;
+}
+
+.text {
+  font-size: 2em;
+  padding: 5px 10px;
+  color: darkblue;
+  background-color: #1234;
+  border-radius: 5px;
+}
+
+
+@media (max-width:1281px) {
+  .first-title {
+    font-size: 3.5em;
+  }
+
+  .text {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width:1025px) {
+  .first {
+    padding: 100px 60px;
+  }
+  
+  .first-title {
+    font-size: 3.2em;
+  }
+
+  .text {
+    font-size: 1.5em;
+  }
+
+}
+@media (max-width:961px) {
+  .first {
+    padding: 60px 30px;
+  }
+
+  .first-title {
+    font-size: 3em;
+  }
+
+  .text {
+    font-size: 1.2em;
+  }
+}
+
+
+@media (max-width:641px) {
+  .first {
+    padding: 30px 10px;
+  }
+  
+  .first-title {
+    font-size: 2.5em;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+}
+
+@media (max-width:480px) { 
+  .first {
+    padding: 10px 5px;
+  }
+  .first-title {
+    font-size: 2em;
+  }
+  
+  .text {
+    font-size: .9em;
+  }
+}
+
+@media (max-width:320px) { 
+  .first {
+    padding: 0 0;
+  }
+  .first-title {
+    font-size: 1.5em;
+  }
+  
+  .text {
+    color: darkred;
+    font-size: .8em;
+  }
+}
