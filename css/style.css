@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1233;
+}
+
+.first {
+  padding: 100px 150px;
+}
+.first-title {
+  border-radius: 5px;
+  text-align: center;
+  font-size: 4em;
+  color: darkgray;
+  margin-top: 0;
+  background-color: darkred;
+  text-shadow: hoff voff blur #000;
+}
+
+.text {
+  padding: 5px 10px;
+  font-size: 2em;
+  color: darkblue;
+  background-color: #1234;
+  border-radius: 5px;
+}
